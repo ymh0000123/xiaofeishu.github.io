@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>计算器</title>
+	<link rel="shortcut icon" type="image/ico" href="https://s2.loli.net/2023/04/18/n4ckYKbXRv19xj5.png">
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f2f2f2;
+      }
+
+      .calculator {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 10px;
+        padding: 10px;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      }
+
+      .calculator input[type="text"] {
+        grid-column: 1 / -1;
+        height: 50px;
+        font-size: 24px;
+        text-align: right;
+        padding: 5px;
+        border: none;
+        border-radius: 5px;
+        box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+      }
+
+      .calculator button {
+        height: 50px;
+        font-size: 24px;
+        background-color: #eee;
+        border: none;
+        border-radius: 5px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+        cursor: pointer;
+        transition: background-color 0.2s ease;
+      }
+
+      .calculator button:hover {
+        background-color: #ddd;
+      }
+
+      .calculator button:active {
+        box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+      }
+
+      .calculator button.operator {
+        background-color: #f2a154;
+        color: #fff;
+      }
+
+      .calculator button.operator:hover {
+        background-color: #f2933d;
+      }
+
+      .calculator button.operator:active {
+        box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="calculator">
+      <input type="text" id="result" disabled>
+      <button onclick="clearResult()">C</button>
+      <button onclick="backspace()">←</button>
+      <button onclick="insert('+')" class="operator">+</button>
+      <button onclick="insert('-')" class="operator">-</button>
+      <button onclick="insert('*')" class="operator">*</button>
+      <button onclick="insert('/')" class="operator">/</button>
+      <button onclick="calculate()" class="operator">=</button>
+      <button onclick="insert('1')">1</button>
+      <button onclick="insert('2')">2</button>
+      <button onclick="insert('3')">3</button>
+      <button onclick="insert('4')">4</button>
+      <button onclick="insert('5')">5</button>
+      <button onclick="insert('6')">6</button>
+      <button onclick="insert('7')">7</button>
+      <button onclick="insert('8')">8</button>
+      <button onclick="insert('9')">9</button>
+      <button onclick="insert('0')">0</button>
+      <button onclick="insert('.')">.</button>
+    </div>
+    <script>
+      let result = document.getElementById('result');
+
+      function insert(value) {
+        result.value += value;
+      }
+
+      function clearResult() {
+        result.value = '';
+      }
+
+      function backspace() {
+        result.value = result.value.slice(0, -1);
+      }
+
+      function calculate() {
+        try {
+          result.value = eval(result.value);
+        } catch (error) {
+          result.value = 'Error';
+        }
+      }
+    </script>
+  <a href="https://ymh0000123.github.io/xiaofeishu.github.io/tool">返回</a>
+  <a href="https://ymh0000123.github.io/xiaofeishu.github.io/about">关于我们</a>  
+  <a href="https://flowus.cn/xiaofeishu_wd/share/2b7e7a14-40c9-44ef-941e-8caad2320c0a">一些文档</a>  
+  <a href="https://ymh0000123.github.io/xiaofeishu.github.io/mc">mc服务器</a>  
+  </body>
+</html>
