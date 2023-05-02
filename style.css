@@ -51,3 +51,29 @@ nav {
  img[src="/xiaofeishu.github.io/file/2022-07-18_20.02.32.png"] {
     max-height: 100%;
   }
+  
+  
+   nav li a:hover {
+    background-color: #111;
+  }
+  img[src="/xiaofeishu.github.io/file/g8gyre.png"] {
+    max-width: 100%;
+  }
+ img[src="/xiaofeishu.github.io/file/g8gyre.png"] {
+    width: 100%;
+  }
+    
+  /* Set the height of the image to auto */
+ img[src="/xiaofeishu.github.io/file/g8gyre.png"] {
+    height: auto;
+  }
+    
+  /* Set the maximum width of the image to 100% */
+ img[src="/xiaofeishu.github.io/file/g8gyre.png"] {
+    max-width: 100%;
+  }
+    
+  /* Set the maximum height of the image to 100% */
+ img[src="/xiaofeishu.github.io/file/g8gyre.png"] {
+    max-height: 100%;
+  }
