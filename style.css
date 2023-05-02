@@ -39,7 +39,7 @@ nav {
     background-repeat: no-repeat;
   }
   @media (max-width: 768px) {
-    #header {
+    #my-background {
       background-size: contain;
     }
   }
