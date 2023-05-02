@@ -1,0 +1,59 @@
+nav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* 将列表项设置为flex布局 */
+  }
+  
+  nav li {
+    /* float: left; */ /* 删除float属性 */
+    margin-right: 20px; /* 添加右边距 */
+  }
+  
+  nav li:last-child {
+    margin-right: 0; /* 删除最后一个列表项的右边距 */
+  }
+  
+  nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+ #图片自动适应 
+  nav li a:hover {
+    background-color: #111;
+  }
+  img[src="/xiaofeishu.github.io/file/2022-07-18_20.02.32.png"] {
+    max-width: 100%;
+  }
+ img[src="/xiaofeishu.github.io/file/2022-07-18_20.02.32.png"] {
+    width: 100%;
+  }
+    
+  /* Set the height of the image to auto */
+ img[src="/xiaofeishu.github.io/file/2022-07-18_20.02.32.png"] {
+    height: auto;
+  }
+    
+  /* Set the maximum width of the image to 100% */
+ img[src="/xiaofeishu.github.io/file/2022-07-18_20.02.32.png"] {
+    max-width: 100%;
+  }
+    
+  /* Set the maximum height of the image to 100% */
+ img[src="/xiaofeishu.github.io/file/2022-07-18_20.02.32.png"] {
+    max-height: 100%;
+  }
+  
+  #统一图片
+  body {
+  background-image: url("/xiaofeishu.github.io/file/2022-07-18_20.02.32.png");
+  background-size: cover; /* 让背景图片充满整个屏幕 */
+}
