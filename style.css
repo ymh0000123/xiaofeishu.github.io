@@ -30,30 +30,30 @@ nav {
   nav li a:hover {
     background-color: #111;
   }
-  img[src="ymh0000123.github.io/xiaofeishu.github.io/file/bj.png"] {
+  img[src="https://raw.iqiq.io/ymh0000123/xiaofeishu.github.io/main/file/bj.png"] {
     max-width: 100%;
   }
- img[src="ymh0000123.github.io/xiaofeishu.github.io/file/bj.png"] {
+ img[src="https://raw.iqiq.io/ymh0000123/xiaofeishu.github.io/main/file/bj.pngg"] {
     width: 100%;
   }
     
   /* Set the height of the image to auto */
- img[src="ymh0000123.github.io/xiaofeishu.github.io/file/bj.png"] {
+ img[src="https://raw.iqiq.io/ymh0000123/xiaofeishu.github.io/main/file/bj.png"] {
     height: auto;
   }
     
   /* Set the maximum width of the image to 100% */
- img[src="ymh0000123.github.io/xiaofeishu.github.io/file/bj.png"] {
+ img[src="https://raw.iqiq.io/ymh0000123/xiaofeishu.github.io/main/file/bj.png"] {
     max-width: 100%;
   }
     
   /* Set the maximum height of the image to 100% */
- img[src="ymh0000123.github.io/xiaofeishu.github.io/file/bj.png"] {
+ img[src="https://raw.iqiq.io/ymh0000123/xiaofeishu.github.io/main/file/bj.png"] {
     max-height: 100%;
   }
   
   #统一图片
   body {
-  background-image: url("ymh0000123.github.io/xiaofeishu.github.io/file/bj.png");
+  background-image: url("https://raw.iqiq.io/ymh0000123/xiaofeishu.github.io/main/file/bj.png");
   background-size: cover; /* 让背景图片充满整个屏幕 */
 }
