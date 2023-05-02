@@ -33,7 +33,7 @@ nav {
     background-position: center; /* 将图片居中显示 */
   }
   #my-background {
-    background-image: url('/xiaofeishu.github.io/file/bj.png');
+    background-image: url('https://raw.iqiq.io/ymh0000123/xiaofeishu.github.io/main/file/bj.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
