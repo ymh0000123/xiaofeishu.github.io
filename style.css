@@ -26,34 +26,20 @@ nav {
     padding: 14px 16px;
     text-decoration: none;
   }
- #图片自动适应 
-  nav li a:hover {
-    background-color: #111;
+
+  .bg-image {
+    background-image: url(/xiaofeishu.github.io/file/bj.png);
+    background-size: cover; /* 将图片缩放至铺满整个背景 */
+    background-position: center; /* 将图片居中显示 */
   }
-  img[src="https://raw.iqiq.io/ymh0000123/xiaofeishu.github.io/main/file/bj.png"] {
-    max-width: 100%;
+  #my-background {
+    background-image: url('/xiaofeishu.github.io/file/bj.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
- img[src="https://raw.iqiq.io/ymh0000123/xiaofeishu.github.io/main/file/bj.pngg"] {
-    width: 100%;
+  @media (max-width: 768px) {
+    #header {
+      background-size: contain;
+    }
   }
-    
-  /* Set the height of the image to auto */
- img[src="https://raw.iqiq.io/ymh0000123/xiaofeishu.github.io/main/file/bj.png"] {
-    height: auto;
-  }
-    
-  /* Set the maximum width of the image to 100% */
- img[src="https://raw.iqiq.io/ymh0000123/xiaofeishu.github.io/main/file/bj.png"] {
-    max-width: 100%;
-  }
-    
-  /* Set the maximum height of the image to 100% */
- img[src="https://raw.iqiq.io/ymh0000123/xiaofeishu.github.io/main/file/bj.png"] {
-    max-height: 100%;
-  }
-  
-  #统一图片
-  body {
-  background-image: url("https://raw.iqiq.io/ymh0000123/xiaofeishu.github.io/main/file/bj.png");
-  background-size: cover; /* 让背景图片充满整个屏幕 */
-}
