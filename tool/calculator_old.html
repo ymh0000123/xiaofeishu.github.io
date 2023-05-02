@@ -3,7 +3,6 @@
   <head>
     <title>计算器</title>
 	 <link rel="shortcut icon" type="image/ico" href="/xiaofeishu.github.io/file/ico.png">
-	    <link rel="stylesheet" href="/xiaofeishu.github.io/style.css">
     <style>
       body {
         font-family: Arial, sans-serif;
@@ -62,24 +61,21 @@
       .calculator button.operator:active {
         box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
       }
+  a:link, a:visited {
+  background-color: #666999;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
 
+a:hover, a:active {
+  background-color: red;
+}
     </style>
   </head>
   <body>
-      
-	<div class="header">
-		<div class="logo">
-			<img src="/xiaofeishu.github.io/file/tb.png" alt="logo">
-		</div>
-    <nav>
-      <ul>
-	    <li><a href="/xiaofeishu.github.io/index.html">返回</a></li>
-        <li><a href="/xiaofeishu.github.io/tool/index.html">小工具</a></li>
-        <li><a href="https://flowus.cn/xiaofeishu_wd/share/2b7e7a14-40c9-44ef-941e-8caad2320c0a">一些文档</a></li>
-		<li><a href="/xiaofeishu.github.io/kauilefu/index.html">mc服务器</a></li>
-        <li><a href="/xiaofeishu.github.io/about.html">关于我们</a></li>
-      </ul>
-    </nav>
     <div class="calculator">
       <input type="text" id="result" disabled>
       <button onclick="clearResult()">C</button>
@@ -124,6 +120,9 @@
         }
       }
     </script>
-
+  <a href="/xiaofeishu.github.io/tool/index.html">返回</a>
+  <a href="/xiaofeishu.github.io/about.html">关于我们</a>  
+  <a href="https://flowus.cn/xiaofeishu_wd/share/2b7e7a14-40c9-44ef-941e-8caad2320c0a">一些文档</a>  
+  <a href="/xiaofeishu.github.io/mc/index.html">mc服务器</a>  
   </body>
 </html>
