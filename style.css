@@ -20,7 +20,7 @@ nav {
   }
   
   nav li a {
-    display: block;
+    display:  block;
     color: white;
     text-align: center;
     padding: 14px 16px;
@@ -42,8 +42,8 @@ nav {
     background-position: center;
     background-repeat: no-repeat;
   }
-  #@media (max-width: 768px) {
+  @media (max-width: 768px) {
     #header {
-      #background-size: contain;
-    #}
-  #}
+      background-size: contain;
+    }
+  }
