@@ -32,12 +32,12 @@ nav {
 }
 
   .bg-image {
-    background-image: url(https://hub.gitmirror.com/https://raw.githubusercontent.com/ymh0000123/xiaofeishu.github.io/main/file/bj.png);
+    background-image: url(https://img.locyan.cn/i/2023/05/20/6468d6bdc3d49.png);
     background-size: cover; /* 将图片缩放至铺满整个背景 */
     background-position: center; /* 将图片居中显示 */
   }
   #my-background {
-    background-image: url('https://hub.gitmirror.com/https://raw.githubusercontent.com/ymh0000123/xiaofeishu.github.io/main/file/bj.png');
+    background-image: url('https://img.locyan.cn/i/2023/05/20/6468d6bdc3d49.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
