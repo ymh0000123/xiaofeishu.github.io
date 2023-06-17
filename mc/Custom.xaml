@@ -1,0 +1,40 @@
+﻿<local:MyCard Title="一些提醒" Margin="0,0,0,15" CanSwap="False" IsSwaped="False">
+    <StackPanel Margin="25,40,23,15">
+        <local:MyHint Text="危险暂时解除但是还是不建议大家去下载模组。" />
+		<StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+				  <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+                   Text="查看自己是否感染" EventType="打开网页" EventData="https://www.bilibili.com/video/BV11j411Q7dW" />
+		</StackPanel>
+		<local:MyHint Text="1.16.5/4 近期多人游戏功能被禁用。" />
+		<StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+		  <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+                   Text="fabric修复模组" EventType="打开网页" EventData="https://github.com/ChickenPige0n/offline-multiplayer-fabric/releases" />
+		  <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+                   Text="通用修复" EventType="打开网页" EventData="https://www.bilibili.com/read/cv24255902" />
+		  <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+                   Text="刷新主页" EventType="刷新主页" EventData="刷新主页" />
+		</StackPanel>
+        <local:MyHint Margin="0,8,0,2" IsWarn="False"
+                    Text="这只是提醒。" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="功能" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <local:MyHint Margin="0,0,0,7" IsWarn="False"
+                   Text="小功能。" />
+        <!-- 这是第一行 -->
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+            <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+                   Text="打开 seed-map" EventType="打开网页" EventData="https://www.chunkbase.com/apps/seed-map" />
+            <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+                   Text="打开littleskin" EventType="打开网页" EventData="https://littleskin.cn/auth/login" />
+        </StackPanel>
+        <!-- 这是第二行 -->
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10,0,0">
+        <local:MyButton Margin="0,0,10,0" Width="200" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+                   Text="打开没用的小废鼠的官网" EventType="打开网页" EventData="https://ymh0000123.github.io/xiaofeishu.github.io/" />
+        </StackPanel>
+    </StackPanel>
+</local:MyCard>
+
