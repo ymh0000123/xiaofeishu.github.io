@@ -11,11 +11,15 @@
                    Text="fabric修复模组" EventType="打开网页" EventData="https://github.com/ChickenPige0n/offline-multiplayer-fabric/releases" />
 		  <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
                    Text="通用修复" EventType="打开网页" EventData="https://www.bilibili.com/read/cv24255902" />
-		  <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
-                   Text="刷新主页" EventType="刷新主页" EventData="刷新主页" />
+
 		</StackPanel>
         <local:MyHint Margin="0,8,0,2" IsWarn="False"
                     Text="这只是提醒。" />
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+		<local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+             Text="刷新主页" EventType="刷新主页" EventData="刷新主页" />
+        </StackPanel>
+
     </StackPanel>
 </local:MyCard>
 
